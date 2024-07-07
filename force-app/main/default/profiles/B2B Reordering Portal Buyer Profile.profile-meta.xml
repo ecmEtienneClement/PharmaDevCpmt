@@ -17,6 +17,21 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>PayementSalaire__c.Statu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+     <fieldPermissions>
+        <editable>false</editable>
+        <field>Caisse__c.SoldeDeCaisse__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ContactDepense__c.Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Caisse__c.SoldeDeCaisse__c</field>
         <readable>true</readable>
@@ -35,6 +50,12 @@
      <layoutAssignments>
         <layout>Depense__c-Depense Layout</layout>
     </layoutAssignments>
+     <layoutAssignments>
+        <layout>Caisse__c-Caisse Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactDepense__c-Contact Dépense Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>ContactDepense__c-Contact Dépense Layout</layout>
     </layoutAssignments>
@@ -47,6 +68,14 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Caisse__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ContactDepense__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+      <tabVisibilities>
         <tab>Caisse__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
