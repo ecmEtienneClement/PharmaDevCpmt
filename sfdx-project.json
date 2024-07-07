@@ -1,12 +1,22 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "GstCmpt01",
+      "versionDescription": ""
     }
   ],
-  "name": "pmtScratch",
+  "name": "mix",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "61.0"
+  "sourceApiVersion": "61.0",
+  "packageAliases": {
+    "GstCmpt01": "0HoQy0000000FdNKAU",
+    "GstCmpt01@0.1.0-1": "04tQy00000022aPIAQ",
+    "GstCmpt01@0.1.0-2": "04tQy00000022s9IAA",
+    "GstCmpt01@0.1.0-3": "04tQy00000024NhIAI"
+  }
 }

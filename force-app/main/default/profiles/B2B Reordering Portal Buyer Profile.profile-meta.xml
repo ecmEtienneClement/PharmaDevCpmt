@@ -50,12 +50,6 @@
      <layoutAssignments>
         <layout>Depense__c-Depense Layout</layout>
     </layoutAssignments>
-     <layoutAssignments>
-        <layout>Caisse__c-Caisse Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContactDepense__c-Contact Dépense Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>ContactDepense__c-Contact Dépense Layout</layout>
     </layoutAssignments>

@@ -1,6 +1,9 @@
 {
   "orgName": "etienne company",
   "edition": "Developer",
+  "username": "hkscratch@creationobjetsgstk.dev",
+  "language": "en_US",
+  "adminEmail": "hakkuframwork@gmail.com",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
