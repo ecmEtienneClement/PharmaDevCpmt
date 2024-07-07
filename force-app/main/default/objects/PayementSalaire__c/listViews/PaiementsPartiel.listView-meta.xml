@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaiementsPartiel</fullName>
+    <columns>NAME</columns>
+    <columns>Personnel__c</columns>
+    <columns>Montant__c</columns>
+    <columns>Statu__c</columns>
+    <columns>Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Statu__c</field>
+        <operation>equals</operation>
+        <value>partiel</value>
+    </filters>
+    <label>PaiementsPartiel</label>
+</ListView>
