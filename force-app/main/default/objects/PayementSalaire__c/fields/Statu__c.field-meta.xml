@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statu__c</fullName>
+    <description>Champs représentant le status du salaire si on l&apos;a paye ou y&apos;a probleme</description>
+    <label>Statu</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>bloqué</fullName>
+                <default>false</default>
+                <label>bloqué</label>
+            </value>
+            <value>
+                <fullName>partiel</fullName>
+                <default>false</default>
+                <label>partiel</label>
+            </value>
+            <value>
+                <fullName>Clôturés</fullName>
+                <default>true</default>
+                <label>Clôturés</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

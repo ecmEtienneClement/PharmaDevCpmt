@@ -6,6 +6,11 @@
         <field>Depense__c.Description__c</field>
         <readable>false</readable>
     </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>PayementSalaire__c.Statu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Depense__c.Restant__c</field>
@@ -21,6 +26,9 @@
         <field>ContactDepense__c.Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
+     <layoutAssignments>
+        <layout>PayementSalaire__c-PayementSalaire Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Caisse__c-Caisse Layout</layout>
     </layoutAssignments>
@@ -30,6 +38,10 @@
     <layoutAssignments>
         <layout>ContactDepense__c-Contact Dépense Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>PayementSalaire__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
       <tabVisibilities>
         <tab>Depense__c</tab>
         <visibility>DefaultOff</visibility>

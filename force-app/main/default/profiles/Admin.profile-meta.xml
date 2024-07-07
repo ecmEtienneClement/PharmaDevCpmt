@@ -16,6 +16,11 @@
         <field>Caisse__c.SoldeDeCaisse__c</field>
         <readable>true</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>true</editable>
+        <field>PayementSalaire__c.Statu__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactDepense__c.Contact__c</field>
@@ -27,9 +32,21 @@
     <layoutAssignments>
         <layout>Caisse__c-Caisse Layout</layout>
     </layoutAssignments>
+      <layoutAssignments>
+        <layout>PayementSalaire__c-PayementSalaire Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>ContactDepense__c-Contact Dépense Layout</layout>
     </layoutAssignments>
+     <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>PayementSalaire__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -57,6 +74,10 @@
         <object>ContactDepense__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+     <tabVisibilities>
+        <tab>PayementSalaire__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
       <tabVisibilities>
         <tab>Depense__c</tab>
         <visibility>DefaultOn</visibility>
