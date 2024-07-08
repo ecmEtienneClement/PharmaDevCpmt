@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DepensesService</fullName>
+    <columns>NAME</columns>
+    <columns>CategorieDepense__c</columns>
+    <columns>Date__c</columns>
+    <columns>MontantDepense__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CategorieDepense__c</field>
+        <operation>equals</operation>
+        <value>Service</value>
+    </filters>
+    <label>Dépenses Service</label>
+</ListView>

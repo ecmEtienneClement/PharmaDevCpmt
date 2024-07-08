@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Depenses</fullName>
+    <fields>Name</fields>
+    <fields>CategorieDepense__c</fields>
+    <fields>Date__c</fields>
+    <fields>MontantDepense__c</fields>
+    <label>Dépenses</label>
+</CompactLayout>
